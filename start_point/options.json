@@ -1,0 +1,23 @@
+
+{
+  "red":
+    {
+      "filename":"hiker.clj",
+      "from":"* 6 9",
+      "to":"* 6 99"
+    }
+  ,
+  "green":
+    {
+      "filename":"hiker.clj",
+      "from":"* 6 9",
+      "to":"* 6 7"
+    }
+  ,
+  "amber":
+    {
+      "filename":"hiker.clj",
+      "from":"defn",
+      "to":"sdefn"
+    }
+}
