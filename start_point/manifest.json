@@ -1,8 +1,7 @@
 {
-  "image_name": "cyberdojofoundation/clojure_midje",
+  "image_name": "cyberdojofoundation/clojure_midje:06ae634",
   "display_name": "Clojure, Midje",
-  "visible_filenames":
-  [
+  "visible_filenames": [
     "hiker_test.clj",
     "hiker.clj",
     "cyber-dojo.sh",
@@ -10,5 +9,7 @@
   ],
   "max_seconds": 20,
   "tab_size": 2,
-  "filename_extension": [ ".clj" ]
+  "filename_extension": [
+    ".clj"
+  ]
 }
