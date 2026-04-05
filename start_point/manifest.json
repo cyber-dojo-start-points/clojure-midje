@@ -1,6 +1,6 @@
 {
-  "display_name": "Clojure 1.12.4, Midje 3.2.2",
-  "image_name": "ghcr.io/cyber-dojo-languages/clojure_midje:b536229",
+  "display_name": "Clojure 1.12.4, Midje 1.10.10",
+  "image_name": "ghcr.io/cyber-dojo-languages/clojure_midje:3d30f7a",
   "visible_filenames": [
     "hiker_test.clj",
     "hiker.clj",
