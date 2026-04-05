@@ -1,12 +1,13 @@
 {
-  "image_name": "cyberdojofoundation/clojure_midje:06ae634",
-  "display_name": "Clojure, Midje",
+  "display_name": "Clojure 1.12.4, Midje 3.2.2",
+  "image_name": "ghcr.io/cyber-dojo-languages/clojure_midje:b536229",
   "visible_filenames": [
     "hiker_test.clj",
     "hiker.clj",
     "cyber-dojo.sh",
     "project.clj"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "max_seconds": 20,
   "tab_size": 2,
   "filename_extension": [
