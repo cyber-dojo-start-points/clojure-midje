@@ -1,14 +1,21 @@
+; This names the dependencies the image holds, and the image computed its
+; classpath, and compiled midje ahead of time, from a copy of this file when it
+; was built. cyber-dojo.sh reads that baked classpath, not this file, so adding a
+; dependency here does not put it on the classpath of a test run. Nothing could
+; be added in any case: a kata runs with no network, so the only jars to be had
+; are the ones already in the image.
+;
+; Adding source and fact files does work, and needs nothing here. The kata's own
+; directory is on the classpath, so a fact file can require a source file beside
+; it, and cyber-dojo.sh names every .clj file, of which the ones declaring a
+; namespace are checked. Name files for the exercise being done; nothing anywhere
+; expects the names this start-point ships.
+;
+; The clojure version is named rather than asked for as "RELEASE", because
+; "RELEASE" is whatever was published most recently, including a pre-release,
+; which is not a property of this image at all.
 (defproject hiker "1.0.0"
   :description "Run midje tests inside cyber-dojo"
-  ; The image runs JDK 8, which loads class-file version 52 and no higher.
-  ; Clojure 1.12.4 is the newest release inside that limit, and it is the
-  ; version the image has in its local maven repository, so naming it here
-  ; keeps the test run off the network.
   :dependencies [[org.clojure/clojure "1.12.4"]
                  [midje "1.10.10"]]
-  :source-paths ["."]
-  ; lein's default is to run the tests in a second JVM it starts for the
-  ; project. Running them in lein's own JVM saves that whole JVM startup,
-  ; which is a large part of the time a cyber-dojo test run takes.
-  :eval-in :leiningen
-  :plugins      [[lein-midje "3.2.2"]])
+  :source-paths ["."])
