@@ -11,11 +11,12 @@
 ; namespace are checked. Name files for the exercise being done; nothing anywhere
 ; expects the names this start-point ships.
 ;
-; The clojure version is named rather than asked for as "RELEASE", because
-; "RELEASE" is whatever was published most recently, including a pre-release,
-; which is not a property of this image at all.
+; The image resolves the newest stable clojure when it is built and records it
+; in /versions.json, which is what says authoritatively which version a kata
+; is running. The number below is a copy of it made when this file was last
+; edited, so read /versions.json if the two ever disagree.
 (defproject hiker "1.0.0"
   :description "Run midje tests inside cyber-dojo"
-  :dependencies [[org.clojure/clojure "1.12.4"]
+  :dependencies [[org.clojure/clojure "1.12.6"]
                  [midje "1.10.10"]]
   :source-paths ["."])
