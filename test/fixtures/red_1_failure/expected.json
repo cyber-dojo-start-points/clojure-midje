@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^FAIL about life, the universe, and everything at \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^Expected:$": 1,
+    "^42$": 1,
+    "^Actual:$": 1,
+    "^54$": 1,
+    "^FAILURE: 1 check failed\\.": 1,
+    "^All checks ": 0
+  },
+  "truncated": false
+}

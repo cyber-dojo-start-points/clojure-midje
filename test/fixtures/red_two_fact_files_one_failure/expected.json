@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^FAIL ": 1,
+    "^FAIL the answer has three digits at \\(answer_size_test\\.clj:[0-9]+\\)$": 1,
+    "^Expected:$": 1,
+    "^Actual:$": 1,
+    "^FAILURE: 1 check failed\\.  \\(But 3 succeeded\\.\\)$": 1,
+    "^All checks ": 0
+  },
+  "truncated": false
+}

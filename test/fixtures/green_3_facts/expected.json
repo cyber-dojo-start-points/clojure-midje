@@ -1,0 +1,10 @@
+{
+  "max_output_lines": 8,
+  "match_counts": {
+    "^All checks \\(3\\) succeeded\\.$": 1,
+    "^FAIL ": 0,
+    "^FAILURE: ": 0,
+    "^LOAD FAILURE for ": 0
+  },
+  "truncated": false
+}

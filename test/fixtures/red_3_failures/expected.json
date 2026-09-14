@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^FAIL ": 3,
+    "^FAIL the answer is forty two at \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^FAIL the answer is a multiple of seven at \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^FAIL the answer has two digits at \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^Expected:$": 3,
+    "^Actual:$": 3,
+    "^FAILURE: 3 checks failed\\.": 1,
+    "^All checks ": 0
+  },
+  "truncated": false
+}

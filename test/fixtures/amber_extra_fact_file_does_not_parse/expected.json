@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^LOAD FAILURE for answer-size-test$": 1,
+    "^Syntax error reading source at \\(answer_size_test\\.clj:[0-9]+:[0-9]+\\)\\.$": 1,
+    "^All checks ": 0,
+    "^FAILURE: ": 0
+  },
+  "truncated": false
+}

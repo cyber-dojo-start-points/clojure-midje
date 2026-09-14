@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^No facts were checked\\. Is that what you wanted\\?$": 1,
+    "^All checks ": 0,
+    "^FAILURE: ": 0,
+    "^LOAD FAILURE for ": 0
+  },
+  "truncated": false
+}

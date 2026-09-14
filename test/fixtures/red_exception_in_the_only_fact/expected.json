@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^FAIL the answer shared between no hikers at \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^Expected:$": 1,
+    "^42$": 1,
+    "^Actual:$": 1,
+    "^java\\.lang\\.ArithmeticException: Divide by zero$": 1,
+    "^FAILURE: 1 check failed\\.": 1,
+    "^All checks ": 0
+  },
+  "truncated": false
+}

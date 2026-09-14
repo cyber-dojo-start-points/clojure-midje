@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^LOAD FAILURE for checksum$": 1,
+    "^Syntax error compiling at \\(checksum\\.clj:[0-9]+:[0-9]+\\)\\.$": 1,
+    "^All checks ": 0,
+    "^FAILURE: ": 0
+  },
+  "truncated": false
+}

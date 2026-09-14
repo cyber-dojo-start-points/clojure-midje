@@ -1,0 +1,13 @@
+{
+  "match_counts": {
+    "^>>> Midje summary:$": 1,
+    "^All checks \\(1\\) succeeded\\.$": 1,
+    "^>>> Output from clojure\\.test tests:$": 1,
+    "^FAIL in \\(the-answer-has-two-digits\\) \\(hiker_test\\.clj:[0-9]+\\)$": 1,
+    "^  actual: \\(not \\(= 2 1\\)\\)$": 1,
+    "^Ran 1 tests containing 1 assertions\\.$": 1,
+    "^1 failures, 0 errors\\.$": 1,
+    "^FAILURE: ": 0
+  },
+  "truncated": false
+}
