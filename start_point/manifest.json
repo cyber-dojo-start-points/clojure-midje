@@ -16,7 +16,6 @@
     "project.clj"
   ],
   "rag_lambda": "red_amber_green.rb",
-  "max_seconds": 20,
   "tab_size": 2,
   "filename_extension": [
     ".clj"
